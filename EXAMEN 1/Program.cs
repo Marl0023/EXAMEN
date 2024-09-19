@@ -3,7 +3,7 @@ double venta = 0, salario = 0, comision = 0, descuento = 0,totalGanado=0;
 int year = 0;
 Console.Write("Ingrese su nombre: ");
 nombre = Console.ReadLine();
-Console.Write("Ingrese su salario: ");
+Console.Write("Ingrese su sueldo bruto: ");
 salario=int.Parse(Console.ReadLine());
 Console.Write("Ventas realizadas: ");
 venta = int.Parse(Console.ReadLine());
