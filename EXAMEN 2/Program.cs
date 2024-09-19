@@ -31,3 +31,8 @@ do {
         break;
     }
 }while (true);
+Console.WriteLine("///////////////////////////////////////////////////");
+Console.WriteLine("La cantidad del carros de color Verde es de : " + contadorV);
+Console.WriteLine("La cantidad de carros de color Azul es de : "+contadorA);
+Console.WriteLine("La cantidad de carros de color Rojo es de : " + contadorR);
+Console.WriteLine("///////////////////////////////////////////////////");
