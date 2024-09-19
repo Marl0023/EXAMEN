@@ -26,7 +26,9 @@ if (year >= 3)
 }
 else
     descuento = totalGanado * 0.045;
+Console.WriteLine("///////////////////////////////////////////////////");
 Console.WriteLine($"Bienvenido {nombre}");
 Console.WriteLine($"Su salario total es de: {totalGanado}");
 Console.WriteLine($"Descuento por impuestos: {descuento}");
 Console.WriteLine($"Salario neto: {totalGanado - descuento}");
+Console.WriteLine("///////////////////////////////////////////////////");
